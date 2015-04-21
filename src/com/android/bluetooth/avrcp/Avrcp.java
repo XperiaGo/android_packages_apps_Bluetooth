@@ -251,6 +251,18 @@ public final class Avrcp {
                 handler.obtainMessage(MSG_SET_METADATA, 0, 0, metadataEditor).sendToTarget();
             }
         }
+
+        @Override
+        public void onClientFolderInfoBrowsedPlayer(String stringUri) { }
+
+        @Override
+        public void onClientUpdateNowPlayingEntries(long[] playList) { }
+
+        @Override
+        public void onClientNowPlayingContentChange() { }
+
+        @Override
+        public void onClientPlayItemResponse(boolean success) { }
     }
 
     /** Handles Avrcp messages. */
