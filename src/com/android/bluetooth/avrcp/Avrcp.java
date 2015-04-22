@@ -252,16 +252,12 @@ public final class Avrcp {
             }
         }
 
-        @Override
         public void onClientFolderInfoBrowsedPlayer(String stringUri) { }
 
-        @Override
         public void onClientUpdateNowPlayingEntries(long[] playList) { }
 
-        @Override
         public void onClientNowPlayingContentChange() { }
 
-        @Override
         public void onClientPlayItemResponse(boolean success) { }
     }
 
